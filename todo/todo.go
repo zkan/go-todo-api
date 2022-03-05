@@ -13,7 +13,7 @@ type Todo struct {
 }
 
 // Specify table name
-func (Todo) Tablename() string {
+func (Todo) TableName() string {
 	return "todos"
 }
 
